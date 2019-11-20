@@ -1,0 +1,365 @@
+.box{
+    font-family: 'Roboto', sans-serif;
+}
+
+.box p{
+    font-weight: 300;
+}
+
+.hero-home{
+    background-image: url('./Images/hero-mobile.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-about{
+    background-image: url('./Images/hero-mobile.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-text-1{
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+
+.hero-text-2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    letter-spacing: 10px;
+    margin-top: -30px;
+}
+
+.my-button{
+    /* border: solid 2px #e74c3c; */
+    border: none;
+    background: #D94A30;
+    padding: 0.5rem 0.7rem !important;
+    /* border-radius: 1px; */
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 50px;
+}
+
+button:focus {
+    outline: none;
+  }
+
+a {
+color:white !important;
+text-decoration: none !important;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+.about{
+    background-color: #2C2C2C;
+    height: 400px;
+}
+
+.about p{
+    width: 75%;
+}
+
+.subscribe{
+    color: #2C2C2C;
+}
+
+.footer{
+    background-color: white;
+    margin-top: 30px;
+}
+
+    /* ============================ RECIPE SEARCH ============================ */
+
+.recipeSearch{
+    background-color: #2C2C2C;
+}
+
+.hero-recipe-search{
+    background-image: url('./Images/recipe-search-hero-large-phone.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
+
+.hero-text-search-2{
+    font-size: 70px;
+}
+
+.form__input {
+    background: transparent;
+    border: 0;
+    border-bottom: solid 2px #D94A30;
+    margin-right: 20px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    padding: 0.4rem;
+  }
+
+  .form__button{
+      color: white;
+  }
+  
+  input[type="text"] { 
+    outline: none;
+    color: white;
+  }
+  
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+    -webkit-text-fill-color: white !important;
+  }
+
+.recipes__box {
+    background: #fff;
+    padding-bottom: 3rem;
+    border-radius: 5px;
+    box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.75);
+    text-align: left;
+    overflow: hidden;
+    width: 350px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    }
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe__box-img{
+    width:  375px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipes__title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+    /* ============================ FOOTER ============================ */
+
+    .footer-content{
+        background-color:  #2C2C2C;
+        padding: 30px 0px;
+    }
+
+    .footer-content h6{
+        text-align: center; 
+        font-size: 12px;
+        color: white;
+    }
+
+     /* ============================ Login ============================ */
+
+     .login-page{
+         display: flex;
+         flex-direction: row;
+         height: 100vh;
+     }
+
+     .login-form{
+         width: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .login-form-form{
+        width: 300px;
+        display: flex; 
+        flex-direction: column;
+        align-items: flex-end;
+     }
+
+     .login-form-form input[type="text"]{
+        width: 300px;
+        color: #a9a9a9;
+     }
+
+     .login-form-form button{
+         margin-top: 30px;
+         margin-right: 20px;
+     }
+     
+     .login-form-bottom{
+         display: block;
+         float: right;
+     }
+
+     .login-form-bottom p{
+         color: black;
+     }
+
+
+
+     .login-header{
+         height: 100vh;
+         width: 50%;
+         background-image: url('./Images/login-desktop.jpg');
+         background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+     }
+
+     .login-header h2{
+        font-family: 'Sacramento', cursive;
+        font-size: 75px;
+    }
+    
+    .login-header p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        letter-spacing: 10px;
+        margin-top: -15px;
+    }
+
+
+
+    /* ============================ MEDIA QUERIES ============================ */
+
+    @media only screen and (min-width: 600px) {
+
+        .hero-recipe-search{
+            background-image: url('./Images/recipe-search-hero-large-phone.jpg');
+            background-position: center;
+        }
+
+        .hero-home{
+            background-image: url('./Images/home-hero-large-phone.jpg');
+            background-position: center;
+        }
+
+        .recipes__box{
+            margin-left: 30px;
+        }
+
+        .hero-text-1{
+            font-size: 120px;
+        }
+        
+        .hero-text-2{
+            font-size: 200px;
+            letter-spacing: 50px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .hero-recipe-search{
+            background-image: url('./Images/recipe-search-hero-small-tablet.jpg');
+            background-position: center;
+        }
+
+        .hero-home{
+            background-image: url('./Images/home-hero-small-tablet.jpg');
+            background-position: center;
+        }
+
+        .recipes{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .recipes__box{
+            margin-left: 20px;
+            width: 300px;
+            min-height: 200px;
+        }
+
+        .recipe__box-img{
+            width:  300px;
+            height: 175px;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .hero-recipe-search{
+            background-image: url('./Images/recipe-search-hero-large-tablet.jpg');
+            background-position: center;
+        }
+
+        .hero-home{
+            background-image: url('./Images/home-hero-large-tablet.jpg');
+            background-position: center;
+        }
+
+        .recipes__box{
+            margin-left: 20px;
+            width: 300px;
+            min-height: 200px;
+        }
+
+        .recipe__box-img{
+            width:  300px;
+            height: 175px;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .hero-recipe-search{
+            background-image: url('./Images/recipe-search-hero-desktop.jpg');
+            background-position: center;
+        }
+
+        .hero-home{
+            background-image: url('./Images/home-hero-desktop.jpg');
+            background-position: center;
+        }
+
+        .hero-about{
+            background-image: url('./Images/about-desktop.jpg');
+            background-position: center;
+        }
+
+        .hero-about h2{
+            font-size: 125px;
+        }
+
+        .recipes__box{
+            margin-left: 30px;
+            width: 350px;
+            min-height: 250px;
+        }
+
+        .recipe__box-img{
+            width:  375px;
+            height: 200px;
+        }
+    }

@@ -1,0 +1,55 @@
+.toolbar{
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    height: 56px;
+    top: 0;
+    left: 0;
+}
+
+.toolbar_navigation{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar_logo{
+    margin-left: 1rem;
+}
+
+.toolbar_logo a{
+    color: #25323a;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.toolbar_navigation_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation_items li{
+    padding: 0 .5rem;
+}
+
+.toolbar_navigation_items a {
+    color: #25323a;
+    text-decoration: none;
+}
+
+.toolbar_navigation_items a:hover {
+    color: #25323a;
+    text-decoration: none;
+}
+
+.toolbar_navigation_items a:active {
+    color: #25323a;
+    text-decoration: none;
+}
+
+.spacer{
+    flex: 1;
+}
